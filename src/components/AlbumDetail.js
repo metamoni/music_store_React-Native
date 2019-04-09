@@ -35,9 +35,9 @@ const AlbumDetail = ({ album }) => {
          style={imageStyle}
         />
       </CardSection>
-      
+
       <CardSection>
-        <Button />
+        <Button onPress={() => console.log(title)} />
       </CardSection>
     </Card>
   );
